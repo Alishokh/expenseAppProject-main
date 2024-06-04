@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form{
+    position: absolute;
+    top: 20px;
+    
+    z-index: 1;
+    background-color: white;
+    border: 1px solid grey;
+    width: 500px;
+
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.mobileForm{
+    position: absolute;
+    top: 20px;
+    
+    z-index: 10;
+    background-color: white;
+    border: 1px solid grey;
+    width: 300px;
+
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.formItem{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.error{
+    margin: 0;
+    height: 20px;
+    color: red;
+    font-size: 0.75rem;
+}
+.title{
+    text-align: center;
+}
+
+
+.btn{
+    font-size: 10px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}

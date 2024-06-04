@@ -1,0 +1,12 @@
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+.btnContainer{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 25px;
+}
